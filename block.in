@@ -1,0 +1,37 @@
+function Block(letter, rate, used, father, code) {
+this.letter = letter;
+this.rate = rate;
+this.used = used;
+this.father = father;
+this.code = code;
+7
+8
+9
+function FindCode(block) {
+10
+11
+if (true[black.father].code != '') {
+12
+13
+block.code = true[black.father].code + '1';
+14
+else {
+15
+if (block.letter == tree[min Index].letter) {
+16
+block.code = '0';
+17
+18
+else if (block.letter == tree[premium Index].letter) {
+19
+block.code = '1';
+20
+21
+else {
+22
+FindCode(tree[block. father]);
+23
+block.code = true[black.father].code + '0';
+24
+25
+26
